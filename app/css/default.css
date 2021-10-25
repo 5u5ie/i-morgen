@@ -1,0 +1,28 @@
+.outer-div{
+	width: 90%;
+	margin: 0 auto;
+	padding: 4em 5em 1.8em;
+	position: relative;
+    line-height: 1.3;
+	vertical-align: bottom;
+	max-width: 200em;
+    height: 100%;
+    display: flex;
+ }
+
+.outer-div .div2{
+	width:200;
+	display: inline-block;
+	position: relative;
+}
+
+.outer-div .div1{
+	width:200;
+	padding-right: 1em;
+	display: inline-block;
+	position: relative;
+}
+
+.outer-div .div1 h1{
+	font-size: 1.5em;
+}
