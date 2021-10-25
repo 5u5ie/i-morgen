@@ -142,15 +142,29 @@
 }
 
 .button {
-	background-color: #60454E; /* Green */
+	/* Button/Button */
+
+	/* Auto Layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 40px 4px 40px;
+
+	/* Accent 4 */
+
+	background: #60454E;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
 	border: none;
 	color: white;
-	padding: 16px 32px;
-	text-align: center;
+	padding: 1em 2em;
+	text-align: center middle;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
-	margin: 4px 2px;
+	margin: 4px 4px;
 	cursor: pointer;
   }
 
