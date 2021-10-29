@@ -1,0 +1,97 @@
+/* Example Media Queries */
+@media (max-width: 75em) {
+	.container > header h1,
+	.container > header nav {
+	  text-align: center;
+	}
+	.container > header nav {
+	  float: none;
+	  margin: 0 auto 0;
+	}
+	.cbp-af-header h1 {
+    display: inline-block;
+    font-size: 2em;
+	}
+    .container > header > span {
+        text-align: center;
+    }
+  }
+ 
+/*
+@media screen and (max-width: 75em) {
+
+	.container > header h1,
+	.container > header nav {
+		float: none;
+	}
+
+	.container > header > span,
+	.container > header h1 {
+		text-align: center;
+	}
+
+	.container > header nav {
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.container > header > span {
+		text-align: center;
+	}
+
+	.main section p {
+		padding: 1em 5%;
+		font-size: 1.0em;
+	}
+}
+
+@media screen and (max-width: 55em) {
+	
+	.cbp-af-header .cbp-af-inner {
+		width: 100%;
+	}
+
+	.cbp-af-header h1,
+	.cbp-af-header nav {
+		display: inline-block;
+		margin: 0 auto;
+		text-align: center;
+		float: none;
+	}
+
+	.cbp-af-header h1,
+	.cbp-af-header nav a {
+		line-height: 2;
+	}
+
+	.cbp-af-header nav a {
+		float: none;
+		margin: 0 auto 2em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 2em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink h1 {
+		font-size: 1em;
+	}
+
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 32.25em) {
+	.cbp-af-header nav a {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 24em) {
+	.cbp-af-header nav a,
+	.cbp-af-header.cbp-af-header-shrink nav a {
+		line-height: 1;
+	}
+}

@@ -103,7 +103,7 @@ a:hover {
 
 .container > header nav {
 	float: right;
-	text-align: center;
+	text-align: top;
 }
 
 .container > header nav a {
@@ -193,30 +193,4 @@ a:hover {
 	padding: 1em 0;
 	font-size: 1.3em;
 	line-height: 1.3;
-}
-
-@media screen and (max-width: 55em) {
-
-	.container > header h1,
-	.container > header nav {
-		float: none;
-	}
-
-	.container > header > span,
-	.container > header h1 {
-		text-align: left;
-	}
-
-	.container > header nav {
-		margin: 0 auto;
-	}
-
-	.container > header > span {
-		text-indent: 30px;
-	}
-
-	.main section p {
-		padding: 2em 5%;
-		font-size: 1.0em;
-	}
 }

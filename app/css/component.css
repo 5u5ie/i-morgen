@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: Raleway;
+    font-family: "Raleway";
     src: url(https://fonts.googleapis.com/css?family=Raleway);
 }
 
@@ -17,10 +17,10 @@
     background-image: url("../assets/images/Banner1.png");
     background-size: cover;
     height: 100%;
-    text-align: center;
+    text-align: center bottom;
     color: white;
 	z-index: 10000;
-	height: 260px;
+	height: 240px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -31,7 +31,7 @@
 	width: 90%;
 	max-width: 100em;
 	margin: 0 auto;
-	padding: 0 1.875em;
+	padding: 0 0em;
     height: 100%;
     display: flex;
     padding-bottom: 16px;
@@ -42,6 +42,18 @@
 	display: inline-block;
 	position: relative;
 }
+
+.outer-div .epic{
+	font-family: "Raleway";
+	font-size: 4em;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 0em;
+	letter-spacing: 0.02em;
+	color: #060100;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
@@ -55,6 +67,7 @@
 	color: #FFFCF3;
 	letter-spacing: 4px;
 	font-size: 4em;
+	font-weight: 100;
 	margin: 0;
 	float: left;
 }
@@ -103,42 +116,40 @@
 	font-size: 2em;
 }
 
-/* Example Media Queries */
-@media screen and (max-width: 55em) {
-	
-	.cbp-af-header .cbp-af-inner {
-		width: 100%;
-	}
+.div2 {
+	width: 100%;
+	margin: 0 auto;
+    padding: 0em 0em 0em;
+	display: inline-block;
+	position: relative;
+}
 
-	.cbp-af-header h1,
-	.cbp-af-header nav {
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-		float: none;
-	}
+.list {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-content: stretch;
+	-ms-flex-line-pack: stretch;
+	align-content: stretch;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	max-width: 150em;
 
-	.cbp-af-header h1,
-	.cbp-af-header nav a {
-		line-height: 115px;
-	}
+  }
 
-	.cbp-af-header nav a {
-		margin: 0 10px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 45px;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink h1 {
-		font-size: 1.5em;
-	}
-
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1em;
-	}
+.row {
+	line-height: 150%;
+	margin-right: 5em;
 }
 
 .button {
@@ -171,16 +182,5 @@
   .button1 {background-color: #e7e7e7; color: black;} /* Gray */ 
   .button2 {background-color: #555555;} /* Black */
 
-@media screen and (max-width: 32.25em) {
-	.cbp-af-header nav a {
-		font-size: 1em;
-	}
-}
 
-@media screen and (max-width: 24em) {
-	.cbp-af-header nav a,
-	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 1;
-	}
-}
 
