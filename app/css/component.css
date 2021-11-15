@@ -43,18 +43,6 @@
 	position: relative;
 }
 
-.outer-div .epic{
-	font-family: "Raleway";
-	font-size: 3em;
-	font-style: normal;
-	font-weight: 300;
-	line-height: 0;
-	margin-bottom: 1em;
-	letter-spacing: 0.02em;
-	color: #060100;
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
 .cbp-af-header h1,
